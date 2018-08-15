@@ -1,0 +1,3 @@
+[submodule "LimeVideoSDK"]
+	path = LimeVideoSDK
+	url = https://github.com/cameron-elliott/LimeVideoSDK.git

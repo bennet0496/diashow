@@ -3,18 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diashow", "Diashow\Diashow.csproj", "{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiashowManager", "Diashow\DiashowManager.csproj", "{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiashowPlayer", "DiashowPlayer\DiashowPlayer.csproj", "{CE4865E3-34F8-42CD-A20C-00F3E77F0AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiashowFacebookPlugin", "DiashowFacebookPlugin\DiashowFacebookPlugin.csproj", "{F7569C63-6278-45C6-B32D-C7744E5D07C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}.Debug|x64.Build.0 = Debug|Any CPU
 		{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}.Release|x64.ActiveCfg = Release|Any CPU
+		{64EDB4F0-8BB3-458E-AC6B-97C9C4D2EED9}.Release|x64.Build.0 = Release|Any CPU
+		{CE4865E3-34F8-42CD-A20C-00F3E77F0AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4865E3-34F8-42CD-A20C-00F3E77F0AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4865E3-34F8-42CD-A20C-00F3E77F0AF2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CE4865E3-34F8-42CD-A20C-00F3E77F0AF2}.Debug|x64.Build.0 = Debug|Any CPU
+		{CE4865E3-34F8-42CD-A20C-00F3E77F0AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4865E3-34F8-42CD-A20C-00F3E77F0AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4865E3-34F8-42CD-A20C-00F3E77F0AF2}.Release|x64.ActiveCfg = Release|Any CPU
+		{CE4865E3-34F8-42CD-A20C-00F3E77F0AF2}.Release|x64.Build.0 = Release|Any CPU
+		{F7569C63-6278-45C6-B32D-C7744E5D07C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7569C63-6278-45C6-B32D-C7744E5D07C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7569C63-6278-45C6-B32D-C7744E5D07C1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F7569C63-6278-45C6-B32D-C7744E5D07C1}.Debug|x64.Build.0 = Debug|Any CPU
+		{F7569C63-6278-45C6-B32D-C7744E5D07C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7569C63-6278-45C6-B32D-C7744E5D07C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7569C63-6278-45C6-B32D-C7744E5D07C1}.Release|x64.ActiveCfg = Release|Any CPU
+		{F7569C63-6278-45C6-B32D-C7744E5D07C1}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
