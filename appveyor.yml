@@ -1,0 +1,16 @@
+version: 1.0.{build}-{branch}
+
+image: Visual Studio 2017
+
+branches:
+  # blacklist
+  except:
+    - gh-pages
+ 
+artifacts:
+  # pushing a single file with environment variable in path and "Deployment name" specified
+  - path: Diashow\bin\$(configuration)
+    name: Diashow
+
+before_build:
+  - nuget restore
